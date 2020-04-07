@@ -7,6 +7,7 @@ input : a text file with comma delimiter has around 15 different schema data , s
 input : some records have invisible unicode characters embedded in the strings, identify them
 
 3. Load a file having size > 2gb from google cloud storage to a bigquery table by python
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/bf1.PNG)
 
 4. Explain and differentiate about dispositions in bq load job and query jobs, how to handle the data type changes in a file to bq, share a example code to load a json or csv file which have data type changes (integer in one record and string in the next record , float in one record and int in next record for a given field)
 
