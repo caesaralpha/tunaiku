@@ -52,8 +52,6 @@ def is_new_col(row):
     return val
 
 def add_new_col_bq(table_id,colname,dtype):
-    #table_id->your-project.your_dataset.your_table_name
-    # table_id = "your-project.your_dataset.your_table_name"
     table = clientbq.get_table(table_id)  # Make an API request.
     original_schema = table.schema
     new_schema = original_schema[:]  # Creates a copy of the schema.
