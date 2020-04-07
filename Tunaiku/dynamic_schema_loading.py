@@ -104,23 +104,7 @@ def main():
         add_new_col_bq(table_id,'{}'.format(col_name),'{}'.format(dtype[0]))
     auto_detecting_schema(uri2,tablename)
     print("complete!!")
-    # ------------------------------------
-    # uri='gs://sample-alpha/data/sample_aa.csv'
-    # auto_detecting_schema(uri)
-    # ------------------------------------
-    # projectid='charged-atlas-267313'
-    # dataset='sample_submission'
-    # tablename='sample_2'
-    # table_id='charged-atlas-267313.sample_submission.sample_2'
-    # uri='gs://sample-alpha/sample_aa.csv'
-    # df_info=get_table_info(projectid,dataset,tablename)
-    # checking=schema_check(df_info,uri)
-    # add_cols=checking['column_name'][checking['is_new_col']==True].values
-    # for col_name in add_cols:   
-    #     print("the new column name '{}' is detected and it will be added to destination table".format(col_name)) 
-    #     dtype=checking['data_type_x'][checking['column_name']==col_name].values
-    #     print("with data type '{}'".format(dtype[0]))
-    #     add_new_col_bq(table_id,'{}'.format(col_name),'{}'.format(dtype[0]))
+    
 
 if __name__ == '__main__':
     main()   
