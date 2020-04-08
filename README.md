@@ -46,8 +46,8 @@ The script can be accessed in /Tunaiku/dynamic_schema_loading.py or [click here!
 ![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide12.PNG)
 ![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide13.PNG)
 
-7. Split a json tree having multiple table structures using python
-Answer:
+7. Split a json tree having multiple table structures using python\
+Answer:\
 Actually, I don't get the point of the question. So in my script, I just demonstrate how to select component in JSON data.\
 The script can be accessed by [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/j_parse.py) and the input file [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/census-diversity.json)
 
