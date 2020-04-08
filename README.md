@@ -24,8 +24,8 @@ I am not familiar with disposition actually. Nevertheless, for the use case, my 
 function example:\
 *import pandas_gbq\
 def run_bq_sql(project_id,sql):\
-    df = pandas_gbq.read_gbq(sql, project_id=project_id)\
-    return(df)*\
+&nbsp;&nbsp;df = pandas_gbq.read_gbq(sql, project_id=project_id)\
+&nbsp;&nbsp;return(df)*
 
 5. Implement a test SCD2 table in BQ, explain about the SCD2 tables\
 Answer:
