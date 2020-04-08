@@ -28,7 +28,7 @@ def run_bq_sql(project_id,sql):\
 &nbsp;&nbsp;return(df)*
 
 5. Implement a test SCD2 table in BQ, explain about the SCD2 tables\
-Answer:
+Answer:\
 SDC2 is actually a procedure or method how to keep track any update or new added row by providing technical field "updated_date" and "expired_date". So that, whenever we want to access the previous data, it can be gotten easily and understandble related to the data history.\
 The sql script can be accessed in /Tunaiku/sdc2.sql or [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/sdc2.sql)\
 These are the previus condition between two tables, target table "sample_sdc2" and stagging table "sample_stg"
