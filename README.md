@@ -31,5 +31,10 @@ The script can be accessed in /Tunaiku/dynamic_schema_loading.py or [click here!
 7. Split a json tree having multiple table structures using python
 
 8. Get the collections from a mongodb object with a date range filter using python 
-example: get the data records for one day in a given table/object in mongodb
+example: get the data records for one day in a given table/object in mongodb\
+Answer:
+Script can be accessed in /Tunaiku/get_mongodb.py or [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/get_mongodb.py) \
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/mongo.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/mongo_r.PNG)
+
 
