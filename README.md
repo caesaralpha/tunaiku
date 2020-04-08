@@ -1,5 +1,5 @@
 # tunaiku
-All Script and Data are located inside "Tunaiku" forlder
+All Script and Data are located inside "Tunaiku" folder
 1. Split a file which has n number of schema def. And store them in a dict of lists(no 3rd party imports)
 input : a text file with comma delimiter has around 15 different schema data , split it accordingly\
 Answer:\
