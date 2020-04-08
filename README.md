@@ -21,7 +21,12 @@ Related script is in /Tunaiku/load_to_bq.py or [click here!](https://github.com/
 5. Implement a test SCD2 table in BQ, explain about the SCD2 tables
 
 6. Add or alter the schema of a bq table whenever there is a new field added to a file or table from the source after a certain period of time in future
-input : a input file has 10 columns today and after 1 week there are 12 columns , handle the schema 
+input : a input file has 10 columns today and after 1 week there are 12 columns , handle the schema \
+Answer:\
+The script can be accessed in /Tunaiku/dynamic_schema_loading.py or [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/dynamic_schema_loading.py) and the sample files are in /Tunaiku/sample1.csv and sample2.csv\
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide11.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide12.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide13.PNG)
 
 7. Split a json tree having multiple table structures using python
 
