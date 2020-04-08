@@ -21,7 +21,16 @@ Related script is in /Tunaiku/load_to_bq.py or [click here!](https://github.com/
 
 4. Explain and differentiate about dispositions in bq load job and query jobs, how to handle the data type changes in a file to bq, share a example code to load a json or csv file which have data type changes (integer in one record and string in the next record , float in one record and int in next record for a given field)
 
-5. Implement a test SCD2 table in BQ, explain about the SCD2 tables
+5. Implement a test SCD2 table in BQ, explain about the SCD2 tables\
+Answer:
+SDC2 is actually a procedure or method how to keep track any update or new added row by providing technical field "updated_date" and "expired_date". So that, whenever we want to access the previous data, it can be gotten easily and understandble related to the data history.\
+The sql script can be accessed in /Tunaiku/sdc2.sql or [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/sdc2.sql)\
+These are the previus condition between two tables, target table "sample_sdc2" and stagging table "sample_stg"
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/bbf1.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/bbf2.PNG)
+Use case:
+Stagging table has new data and an updated quantity for target table. The expected result is the new product or data will be added and the updated value will be added as well then the expired date of previous data that has been updated will be filled by current date. It will use to notify that the data is the past data and the new one has null value in expired date.
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/aaf1.PNG)
 
 6. Add or alter the schema of a bq table whenever there is a new field added to a file or table from the source after a certain period of time in future
 input : a input file has 10 columns today and after 1 week there are 12 columns , handle the schema \
