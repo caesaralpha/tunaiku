@@ -6,7 +6,10 @@ Answer:\
 [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/load_csv.py) to access the script which is located in /Tunaiku/load_csv.py and the input file is in /Tunaiku/dummy.csv
 
 2. Regular expressions to remove unicode, delimiters, carriage returns all in one expression
-input : some records have invisible unicode characters embedded in the strings, identify them
+input : some records have invisible unicode characters embedded in the strings, identify them\
+Answer:\
+The script can be accesssed in /Tunaiku/cleansing_with_regex.py or [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/cleansing_with_regex.py) and the input file in /Tunaiku/dirty_sample.csv\
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/regex.PNG)
 
 3. Load a file having size > 2gb from google cloud storage to a bigquery table by python\
 Answer:\
