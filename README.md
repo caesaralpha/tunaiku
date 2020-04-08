@@ -1,5 +1,5 @@
 # tunaiku
-All Script and Data are located inside "tunaiku" forlder
+All Script and Data are located inside "Tunaiku" forlder
 1. Split a file which has n number of schema def. And store them in a dict of lists(no 3rd party imports)
 input : a text file with comma delimiter has around 15 different schema data , split it accordingly
 
@@ -7,7 +7,11 @@ input : a text file with comma delimiter has around 15 different schema data , s
 input : some records have invisible unicode characters embedded in the strings, identify them
 
 3. Load a file having size > 2gb from google cloud storage to a bigquery table by python
-![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/bf1.PNG)
+Related script is in /Tunaiku/load_to_bq.py ([a link](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/load_to_bq.py)) and the input file in /Tunaiku/sample_submission.rar
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide1.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide2.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide3.PNG)
+![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide4.PNG)
 
 4. Explain and differentiate about dispositions in bq load job and query jobs, how to handle the data type changes in a file to bq, share a example code to load a json or csv file which have data type changes (integer in one record and string in the next record , float in one record and int in next record for a given field)
 
