@@ -29,7 +29,7 @@ These are the previus condition between two tables, target table "sample_sdc2" a
 ![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/bbf1.PNG)
 ![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/bbf2.PNG)
 Use case:
-Stagging table has new data and an updated quantity for target table. The expected result is the new product or data will be added and the updated value will be added as well then the expired date of previous data that has been updated will be filled by current date. It will use to notify that the data is the past data and the new one has null value in expired date.
+Stagging table has new data and an updated quantity for target table. The expected result is the new product or data will be added and the updated value will be added as well then the expired date of previous data that has been updated will be filled by current date. It will be used to notify that the data is the past data and the new one has null value in expired date.
 ![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/aaf1.PNG)
 
 6. Add or alter the schema of a bq table whenever there is a new field added to a file or table from the source after a certain period of time in future
@@ -41,6 +41,9 @@ The script can be accessed in /Tunaiku/dynamic_schema_loading.py or [click here!
 ![alt text](https://github.com/caesaralpha/tunaiku/blob/master/pic/Slide13.PNG)
 
 7. Split a json tree having multiple table structures using python
+Answer:
+Actually, I don't get the point of the question. So in my script, I just demonstrate how to select component in JSON data.\
+The script can be accessed by [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/j_parse.py) and the input file [click here!](https://github.com/caesaralpha/tunaiku/blob/master/Tunaiku/census-diversity.json)
 
 8. Get the collections from a mongodb object with a date range filter using python 
 example: get the data records for one day in a given table/object in mongodb\
