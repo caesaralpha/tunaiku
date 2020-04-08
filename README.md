@@ -22,10 +22,10 @@ Related script is in /Tunaiku/load_to_bq.py or [click here!](https://github.com/
 4. Explain and differentiate about dispositions in bq load job and query jobs, how to handle the data type changes in a file to bq, share a example code to load a json or csv file which have data type changes (integer in one record and string in the next record , float in one record and int in next record for a given field)\
 I am not familiar with disposition actually. Nevertheless, for the use case, my idea is to collect the metadata both, for table and file like what I have demonstrate in the question number 5. Then, put the file data into data frame and convert the column based on target table in BQ. After that, insert the data frame by using insert statement in BQ query that is run on top of python (using import pandas_gbq)\
 function example:\
-*import pandas_gbq
-def run_bq_sql(project_id,sql):
-    df = pandas_gbq.read_gbq(sql, project_id=project_id)
-    return(df)*
+*import pandas_gbq\
+def run_bq_sql(project_id,sql):\
+    df = pandas_gbq.read_gbq(sql, project_id=project_id)\
+    return(df)*\
 
 5. Implement a test SCD2 table in BQ, explain about the SCD2 tables\
 Answer:
